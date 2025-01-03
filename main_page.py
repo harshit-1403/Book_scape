@@ -14,7 +14,7 @@ conn = pymysql.connect(
         host="localhost",
         port=3306,
         user="root",
-        password="nov@2024",
+        password="*******",
         database="projects"
     )
 cursor = conn.cursor()
@@ -156,7 +156,7 @@ def displayrecords():
             host="localhost",
             port=3306,
             user="root",
-            password="nov@2024",
+            password="****",
             database="projects"
         )
 
@@ -193,7 +193,7 @@ def get_total_count():
             host="localhost",
             port=3306,
             user="root",
-            password="nov@2024",
+            password="****",
             database="projects"
         )
     cursor = conn.cursor()
@@ -212,7 +212,7 @@ def one():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
         cursor = conn.cursor()
@@ -268,7 +268,7 @@ def two():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
         cursor = conn.cursor()
@@ -316,7 +316,7 @@ def three():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
         cursor = conn.cursor()
@@ -372,7 +372,7 @@ def four():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
@@ -435,7 +435,7 @@ def five():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
@@ -492,7 +492,7 @@ def six():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
@@ -543,7 +543,7 @@ def seven():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
@@ -608,7 +608,7 @@ def eight():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
@@ -680,7 +680,7 @@ def nine():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
         cursor = conn.cursor()
@@ -738,7 +738,7 @@ def ten():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
@@ -805,7 +805,7 @@ def eleven():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
@@ -861,7 +861,7 @@ def twelve():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
@@ -915,7 +915,7 @@ def fourteen(keyword):
             host="localhost",
             port=3306,
             user="root",
-            password="nov@2024",
+            password="****",
             database="projects"
         )
 
@@ -953,7 +953,7 @@ def fifteen():
     try:
         # Reconnect if connection is closed
         if not conn.open:
-            conn = pymysql.connect(host="localhost", port=3306, user="root", password="nov@2024", database="projects")
+            conn = pymysql.connect(host="localhost", port=3306, user="root", password="****", database="projects")
         cursor = conn.cursor()
 
         # SQL query for year with highest average book price
@@ -1000,7 +1000,7 @@ def sixteen():
     try:
         # Reconnect if connection is closed
         if not conn.open:
-            conn = pymysql.connect(host="localhost", port=3306, user="root", password="nov@2024", database="projects")
+            conn = pymysql.connect(host="localhost", port=3306, user="root", password="****", database="projects")
         cursor = conn.cursor()
 
         # SQL query to fetch authors with books in 3 consecutive years
@@ -1042,7 +1042,7 @@ def seventeen():
     try:
         # Reconnect if connection is closed
         if not conn.open:
-            conn = pymysql.connect(host="localhost", port=3306, user="root", password="nov@2024", database="projects")
+            conn = pymysql.connect(host="localhost", port=3306, user="root", password="****", database="projects")
         cursor = conn.cursor()
 
         # SQL query
@@ -1115,7 +1115,7 @@ def nineteen():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
@@ -1195,7 +1195,7 @@ def twenty():
                 host="localhost",
                 port=3306,
                 user="root",
-                password="nov@2024",
+                password="****",
                 database="projects"
             )
 
